@@ -32,7 +32,7 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 # ==========================================
 # 2. Debian Base
 # ==========================================
-FROM node:20.19.2-bookworm-slim AS debian_base
+FROM node:20.20.0-bookworm-slim AS debian_base
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
